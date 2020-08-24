@@ -1,0 +1,14 @@
+useDynLib(topmodel, .registration = TRUE)
+
+importFrom("methods", "is")
+
+export(topmodel,
+       make.classes,
+       topidx,
+       NSeff,
+       infiltration,
+       flowlength,
+       outlet,
+       river,
+       sinkfill,
+       subcatch)

@@ -1,0 +1,46 @@
+
+0.7.2-1
+-----
+
+- adapt topmodel example code to bugfix in R 2.11.0
+
+0.7.2
+-----
+
+- memory allocation bugfix in flowlength.c
+- change weblink to R wiki
+
+0.7.1
+-----
+
+0.7
+---
+
+- Merging the digital terrain analysis functions
+- Putting package in maintenance mode
+  Active development will occur in the Rhydro package
+
+0.6.2
+-----
+
+- fixing a bug in the handling of NAs in topidx()
+
+
+0.6.1
+-----
+
+- fixing a bug in topmodel.R
+
+
+0.6
+---
+
+- cleaning up of the code
+- rewriting the code of topidx.c
+- fixing the format of the huagrahuma sample code
+
+
+0.5
+---
+
+first version in the public domain
