@@ -18,7 +18,7 @@
     rain       \tab Observed precipitation [m / 15 min]\cr
   }
 }
-\usage{huagrahuma}
+\usage{data(huagrahuma)}
 %\format{}
 %\source{}
 \references{

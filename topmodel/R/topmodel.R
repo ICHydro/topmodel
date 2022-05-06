@@ -23,7 +23,7 @@ topmodel <- function(parameters, topidx, delay, rain, ETp, verbose = F, Qobs = N
   ## check whether the function should return E or for Qsim
   ## Adjust lengthResult accordingly
 
-  if(length(Qobs) == 1 && is.na(Qobs)) {
+  if((length(Qobs) == 1) & all(is.na(Qobs))) {
     Qobs <- -9999    # go for Qsim
     lengthResult <- length(rain)*iterations
   }
@@ -69,7 +69,7 @@ topmodel <- function(parameters, topidx, delay, rain, ETp, verbose = F, Qobs = N
                    )
   }
 
-  if((Qobs == -9999) && (iterations > 1) && (v == 1)) result <- matrix(result, ncol= iterations)
+  if(all(Qobs == -9999) & (iterations > 1) & (v == 1)) result <- matrix(result, ncol= iterations)
 
   return(result)
 

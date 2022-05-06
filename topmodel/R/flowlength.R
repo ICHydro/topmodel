@@ -8,7 +8,7 @@ flowlength <- function(DEM,outlet = NA) {
     stop("DEM contains unrealistic values (> 999998)")
   }
 
-  if(!is.na(outlet[1]) && !is(outlet,"numeric") && length(outlet) != 2){
+  if(!is.na(outlet[1]) & !is(outlet,"numeric") & length(outlet) != 2){
     stop("Outlet should be a vector of length 2")     
   }
 

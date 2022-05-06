@@ -15,7 +15,7 @@ For deep sinks or large maps, it may be possible that not all sinks are filled i
 }
 \value{A matrix of the same size as the DEM.}
 
-\references{See \url{http://paramo.cc.ic.ac.uk/topmodel_tutorial} for examples.}
+\references{See \url{https://github.com/ICHydro/topmodel} for examples.}
 
 \author{Wouter Buytaert, Imperial College London, based on an implementation from the Hydrology Group of Lancaster University}
 

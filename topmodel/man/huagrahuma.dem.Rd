@@ -5,7 +5,7 @@
 \description{
   Matrix containing a Digital Elevation Model of the Huagrahuma microcatchment, Ecuador, at 25 m resolution.
 }
-\usage{huagrahuma.dem}
+\usage{data(huagrahuma.dem)}
 %\format{}
 %\source{}
 \references{

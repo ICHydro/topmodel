@@ -54,9 +54,10 @@ Be aware that invoking \code{topmodel()} without Q for a large number of runs, m
 Beven K, Lamb R, Quinn P, Romanowicz R, Freer J, 1995. TOPMODEL. In: Sing VP (Ed), Computer Models of Watershed Hydrology. Water Resources Publications, Colorado. pp. 627-668.
 
 Morel-Seytoux, H.J., Khanji, J., 1974. Derivation of an Equation of Infiltration. Water Resources Research, 10, 795-800.
+
 Beven, K., 1984. Infiltration into a Class of Vertically Non-Uniform Soils. Hydrological Sciences Journal 29, 425-434.
 
-See also \url{http://paramo.cc.ic.ac.uk/topmodel_tutorial} for a more examples on how to run topmodel in R.
+See also \url{https://github.com/ICHydro/topmodel} for a more examples on how to run topmodel in R.
 }
 \author{Wouter Buytaert, Imperial College London}
 % \note{}

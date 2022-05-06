@@ -29,7 +29,7 @@ The function returns a vector with the same length as the input vector rain repr
 \references{Morel-Seytoux, H.J., Khanji, J., 1974. Derivation of an Equation of Infiltration. Water Resources Research, 10, 795-800.
 Beven, K., 1984. Infiltration into a Class of Vertically Non-Uniform Soils. Hydrological Sciences Journal 29, 425-434.
 
-See also \url{http://paramo.cc.ic.ac.uk/topmodel_tutorial} for examples.
+See also \url{https://github.com/ICHydro/topmodel} for examples.
 }
 \author{Wouter Buytaert, Imperial College London, based on original FORTRAN code from Lancaster University}
 %\note{}

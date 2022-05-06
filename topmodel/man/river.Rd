@@ -23,7 +23,7 @@ Cells that exceed thatb or tharea in the respective maps are identified as headw
 
 \value{A matrix of the same size as DEM.}
 
-\references{See \url{http://paramo.cc.ic.ac.uk/topmodel_tutorial} for examples.}
+\references{See \url{https://github.com/ICHydro/topmodel} for examples.}
 
 \author{Wouter Buytaert, Imperial College London, based on an implementation from the Hydrology Group of Lancaster University}
 %\note{}

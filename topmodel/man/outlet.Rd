@@ -17,7 +17,7 @@ The function can be used to find a catchment outlet using a drainage area map ge
 }
 \value{Square matrix of size (radius * 2 + 1) 
 }
-\references{See \url{http://paramo.cc.ic.ac.uk/topmodel_tutorial} for examples.}
+\references{See \url{https://github.com/ICHydro/topmodel} for examples.}
 \author{Wouter Buytaert, Imperial College London}
 %\note{}
 \seealso{\code{\link{subcatch}}}

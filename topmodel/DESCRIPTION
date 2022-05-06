@@ -1,8 +1,8 @@
 Package: topmodel
 Type: Package
 Title: Implementation of the Hydrological Model TOPMODEL in R
-Version: 0.7.3
-Date: 2018-01-31
+Version: 0.7.4
+Date: 2022-05-05
 Author: Wouter Buytaert
 Maintainer: Wouter Buytaert <w.buytaert@imperial.ac.uk>
 Description: Set of hydrological functions including an R
@@ -11,5 +11,5 @@ Description: Set of hydrological functions including an R
         0.7.0, the package is put into maintenance mode.
 License: GPL (>= 2)
 Imports: methods
-URL: http://paramo.cc.ic.ac.uk/topmodel_tutorial
+URL: https://github.com/ICHydro/topmodel
 Repository: CRAN
