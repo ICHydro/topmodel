@@ -7,23 +7,22 @@
 #define	ZERO		0.0000001
 
 /* output.c */
-void	output();
+void output(double *, double *, int, int, int, int, int);
 /* start.c */
-void	memory_allocation();
-void	memory_free();
-void	topidx_calc();
+void memory_allocation(int, int, int);
+void memory_free(int, int, int);
+void topidx_calc(double *, int);
 /* NS.c */
-double	get_Eff();
+double get_Eff(double *, double *, int);
 /* misc */
-void	get_Ad();
-double	get_lambda();
+void get_Ad(int);
+double get_lambda(int);
 /* param_init */
-void	param_init();
-/* infiltration.c */
-double	get_f();
+void param_init(double *, double *, int, int, int, int);
+/* get_f.c */
+double get_f(double, double, double, double, double, double);
 /* cores */
-void	run_topmodel();
-void    run_topsat();
+void run_topmodel(double *, double *, int, int, int);
 
 #ifdef MAIN
 #	define	GLOBAL

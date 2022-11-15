@@ -1,8 +1,8 @@
 Package: topmodel
 Type: Package
 Title: Implementation of the Hydrological Model TOPMODEL in R
-Version: 0.7.4
-Date: 2022-05-05
+Version: 0.7.5
+Date: 2022-11-15
 Author: Wouter Buytaert
 Maintainer: Wouter Buytaert <w.buytaert@imperial.ac.uk>
 Description: Set of hydrological functions including an R

@@ -16,12 +16,12 @@ void c_topidx(double *inputdem,
 	    double *ns_res,
 	    double *output)
 {
-  int    i,j,ii,jj,k,k1,k2,k3,nf,i2,j2,natbold;
+  int    i,j,ii,jj,k,natbold;
   int    natb = 0;     /* number of atbs still to be analysed */
-  int    iproute,nrout,river,not_yet;
+  int    nrout,river,not_yet;
   double **dem, **atb, **area, **slope, **rivermap;
-  double exclude,dnx,routefac,nslp,xr,yr;
-  int	 nsink = 0;
+  double exclude,dnx,routefac,nslp;
+  int    nsink = 0;
   double routdem[9], tanb[9];
   double c,dx1,dx2,sum,sumtb;
 
@@ -172,7 +172,7 @@ void c_topidx(double *inputdem,
 	/* if a sink or a river cell... */
 
         if((nrout == 0) || (river == 1)) {
-	  nsink++;
+	        nsink++;
           river = 0;
 
           /* assume that there is a channel of length dx running midway through

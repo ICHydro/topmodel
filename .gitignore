@@ -57,7 +57,8 @@ dkms.conf
 # swap files
 *.swp
 
-
+# other
+.vscode
 
 
 
